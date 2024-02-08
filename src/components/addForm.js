@@ -25,7 +25,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   try {
     let response;
-    // const requestData = editedUser ? { parameter: { ...formData } }: formData;
+
       const requestData = { parameter: { ...formData } };
 
     if (editedUser) {
@@ -44,7 +44,7 @@ const handleSubmit = async (e) => {
       addPerson(formData);
 
     }
-    // Reset form data after successful addition/edit
+
     setFormData({
       first_name: '',
       last_name: '',
@@ -52,7 +52,7 @@ const handleSubmit = async (e) => {
       nationality: '',
       gender: '',
     });
-    setShowForm(false); // Hide the form after successful addition/edit
+    setShowForm(false);
     console.log(editedUser ? "User edited Successfully" : "User added Successfully");
   } catch (error) {
     setShowForm(false);
