@@ -1,0 +1,16 @@
+html{
+    background-color: rgba(245, 245, 220, 0.51);
+}
+
+
+ h1 {
+
+     margin-top: 30px;
+     margin-bottom: 20px;
+      text-align: center; /* Centers the text */
+      font-size: 2.5em; /* Adjust font size as desired */
+      font-weight: bold; /* Makes the text bold */
+      text-transform: uppercase; /* Converts text to uppercase */
+      color: #333; /* Sets the color of the text */
+      /* Optionally, you can add other styles like font-family, text-shadow, etc. */
+    }
